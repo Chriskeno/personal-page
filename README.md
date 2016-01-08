@@ -1,1 +1,1 @@
-View my personal webpage[here](http://chriskeno.github.io/hello-world-page/). 
+View my personal webpage [here](http://chriskeno.github.io/hello-world-page/). 
