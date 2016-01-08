@@ -1,0 +1,176 @@
+/*   
+Project: Hello World Personal Page
+Project URI: http://timpotter.github.io
+Author: Tim Potter
+Author URI: http://littlethunder.co
+*/
+
+
+/* Reset Browser Defaults*/
+
+* {
+  padding:0;
+  margin: 0;
+}
+
+
+
+/* Typography */
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #0f0f0f;
+   -webkit-font-smoothing: antialiased;
+    background: url(../images/triangle.png)  top center repeat;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header p {
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+section{
+padding:2em;}
+
+section h2{
+padding-bottom: 1em;}
+
+h1 {
+  font-weight: 100;
+  font-size: 3em; /* 48/16 */
+  margin-bottom: 40px;
+  line-height: 1em;
+}
+
+section p {
+  line-height: 1.9em;
+    font-size: 1.2em;
+}
+
+
+/*----nav----*/
+nav
+{position: fixed;
+top: 0px;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color:whitesmoke;
+        
+}
+
+nav 
+{
+padding: 0.5em 0;
+margin-bottom: 0.4em;
+}
+
+nav ul 
+{text-align: center;
+}
+
+nav ul li 
+{display: inline;
+margin: 20px;}
+/*-----links------------*/
+a {
+color:darkgray;
+text-decoration:none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a:hover {
+          color:white;
+          border-bottom: 1px dotted;
+        }
+.svglinks a {
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.svglinks a:hover {
+  opacity: 0.8;
+}
+
+.svglinks li {
+  display: inline;
+  margin: 0px;
+  color: #444;
+}
+
+.svglinks li img {
+  width: 0px;
+    display: inline;
+padding-left: 1em;
+    padding-top: 1em;
+}
+
+.svglinks a:hover {
+        padding: 7px;
+        /*background:;
+        color: #fff;*/
+        border-bottom: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+        border-radius: 1em;}
+
+
+.social a {
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
+.social li {
+  display: inline;
+  margin: 5px;
+  color: #444;
+}
+
+/* Images */
+
+
+img.avatar {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  margin-top: -30px;
+}
+
+.social li img {
+  width: 50px;
+}
+
+/* Layout */
+
+.container {
+  width: 800px;
+  margin: 100px auto 25px;
+  background-color:rgba(255, 255, 255, 0.8);
+  padding: 0 60px 30px;
+  border-radius: 6px;
+}
+
+.social {
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+
